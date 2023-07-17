@@ -1,0 +1,20 @@
+* Download the dataset from the NYC website
+* Set up a Lucid account and create a data model for our Dataset.
+* Set up your Jupyter notebook environment
+* Convert the Parquet file to csv file for easy access for the small dataset.
+* Create an AWS Bucket and allow public access to the bucket.
+* Create folder and upload the coverted dataset to our created Bucket.
+* Set up an EC2 Instance on AWS
+* install mage-ai
+* create a access key and secret key and grant it
+ permission to access s3 and redshift privilege.then add it to your 
+ io_config.yaml
+* create user in order to create access key and secret key
+ * use attach policy directly
+ * select s3fullaccess and redshiftfullaccess and admin
+ * select aws resource like ec2
+ set up aws cli using "sudo apt install awscli"
+ aws configure 
+
+
+ 

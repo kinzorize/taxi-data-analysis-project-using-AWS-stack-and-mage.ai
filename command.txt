@@ -1,0 +1,63 @@
+# Install Python and pip 
+sudo apt-get install update -y
+sudo apt-get update -y
+
+sudo apt-get install python3-distutils
+
+sudo apt-get install python3-apt
+
+sudo apt-get install wget
+
+wget https://bootstrap.pypa.io/get-pip.py
+
+sudo python3 get-pip.py
+
+
+# Install Mage
+sudo pip3 install mage-ai
+
+# Install Pandas
+sudo pip3 install pandas
+
+# Install Google Cloud Library
+sudo pip3 install google-cloud
+
+sudo pip3 install google-cloud-bigquery
+
+sudo pip3 install "mage-ai[aws]"
+
+sudo pip3 install "mage-ai[s3]"
+
+sudo pip3 install "mage-ai[redshift]"
+
+sudo pip3 install aws
+
+sudo pip3 install s3
+
+sudo pip3 install boto3
+ sudo pip3 install redshift 
+MINE
+For AWS linux mint
+
+sudo yum update
+
+sudo yum install python3-distutils
+sudo yum install python3
+
+
+sudo yum install wget
+wget https://bootstrap.pypa.io/get-pip.py
+
+
+sudo python3 get-pip.py
+
+python3
+quit()
+
+sudo pip3 install pandas
+
+sudo pip3 install mage-ai
+
+sudo pip install mage-ai==0.0.5
+
+mage start testinguberproject
