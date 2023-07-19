@@ -18,3 +18,5 @@ AWS Cloud Service
 Modern Data Pipeine Tool - https://www.mage.ai/
 
 Contibute to this open source project - https://github.com/mage-ai/mage-ai
+
+![Architecture](dataarchitecture.png)
