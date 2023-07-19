@@ -1,11 +1,14 @@
 # Install Python and pip 
-sudo apt-get install update -y
+
+-- sudo apt-get install update -y
 sudo apt-get update -y
 
+# install python on our machine.
 sudo apt-get install python3-distutils
 
 sudo apt-get install python3-apt
 
+# install wget to enable us to Download file from the internet.
 sudo apt-get install wget
 
 wget https://bootstrap.pypa.io/get-pip.py
@@ -19,24 +22,38 @@ sudo pip3 install mage-ai
 # Install Pandas
 sudo pip3 install pandas
 
-# Install Google Cloud Library
-sudo pip3 install google-cloud
-
-sudo pip3 install google-cloud-bigquery
-
-sudo pip3 install "mage-ai[aws]"
-
-sudo pip3 install "mage-ai[s3]"
-
-sudo pip3 install "mage-ai[redshift]"
-
+# install AWS library
 sudo pip3 install aws
 
+#install AWS Simple Storage Service (s3) Datalake
 sudo pip3 install s3
 
+
+#install Python library to programmatically access and manage various AWS services
 sudo pip3 install boto3
+
+# install AWS Redshift
  sudo pip3 install redshift 
-MINE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 For AWS linux mint
 
 sudo yum update

@@ -20,7 +20,7 @@ def load_data_from_s3(*args, **kwargs):
     obj = s3.get_object(Bucket=bucket_name, Key=key)
     body = obj['Body'].read()
 
-    return pd.read_csv(io.BytesIO(body), sep=',')
+    return pd.read_csv(io.BytesIO(body), sep=',', low_memory=False)
 
 
 @test
